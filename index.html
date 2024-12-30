@@ -14,7 +14,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Coursework - Part A</title>
+        <title>Lee Chia Hin</title>
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="assets/Logo.png" />
         <!-- Font Awesome icons (free version)-->
@@ -58,7 +58,28 @@
                     <div class="divider-custom-line"></div>
                   </div>
                   <p class="masthead-subheading font-weight-light mb-0">BSc.(Hons) Multimedia Computing</p>
-                  <p class="masthead-subheading font-weight-light mb-0">23 Years Old</p>
+                  <p id="age" class="masthead-subheading font-weight-light mb-0"></p>
+
+                        <script>
+                            // Function to calculate age
+                            function calculateAge(birthDate) {
+                                const today = new Date();
+                                let age = today.getFullYear() - birthDate.getFullYear();
+                                const monthDifference = today.getMonth() - birthDate.getMonth();
+                                if (monthDifference < 0 || (monthDifference === 0 && today.getDate() < birthDate.getDate())) {
+                                    age--;
+                                }
+                                return age;
+                            }
+                        
+                            // Replace with your actual birth date
+                            const birthDate = new Date('2000-12-29'); // Example: January 1, 1999
+                            const age = calculateAge(birthDate);
+                            
+                            // Update the paragraph with the calculated age
+                            document.getElementById('age').textContent = age + ' Years Old';
+                        </script>
+                    
                   <p class="masthead-subheading font-weight-light mb-0">Male</p>
                 </div>
               </div>              
@@ -90,7 +111,7 @@
         <section class="page-section bg-info text-white mb-0" id="about">
             <div class="container">
                 <!-- About Section Heading-->
-                <h2 class="page-section-heading text-center text-uppercase text-white">Students</h2>
+                <h2 class="page-section-heading text-center text-uppercase text-white">Cyber Security</h2>
                 <!-- Icon Divider-->
                 <div class="divider-custom divider-light">
                     <div class="divider-custom-line"></div>
@@ -118,15 +139,15 @@
                     <ul class="list-unstyled text-light footer-link-list">
                         <li>
                             <i class="fas fa-map-marker-alt fa-fw"></i>
-                            Cheras, Malaysia
+                            Malaysia
                         </li>
                         <li>
                             <i class="fa fa-phone fa-fw"></i>
-                            <a class="text-decoration-none">0123823254</a>
+                            <a class="text-decoration-none">601165502469</a>
                         </li>
                         <li>
                             <i class="fa fa-envelope fa-fw"></i>
-                            <a class="text-decoration-none">leechiahin00@gmail.com</a>
+                            <a class="text-decoration-none">hinlee29@gmail.com</a>
                         </li>
                     </ul>
                 </div>
