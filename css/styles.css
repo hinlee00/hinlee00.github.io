@@ -11056,3 +11056,11 @@ html {
 #videos iframe {
     border-radius: 10px;
 }
+
+#instagram {
+    padding: 60px 0;
+}
+
+#instagram h2 {
+    margin-bottom: 30px;
+}
