@@ -11064,3 +11064,12 @@ html {
 #instagram h2 {
     margin-bottom: 30px;
 }
+
+.footer {
+    margin-bottom: 0; /* Remove bottom margin */
+}
+
+.copyright {
+    margin-top: 0; /* Remove top margin */
+    padding-top: 10px; /* Adjust padding as needed */
+}
