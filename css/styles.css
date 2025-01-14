@@ -11044,3 +11044,15 @@ html {
 .copyright {
   background-color: #1a252f;
 }
+
+#videos {
+    padding: 60px 0;
+}
+
+#videos h2 {
+    margin-bottom: 30px;
+}
+
+#videos iframe {
+    border-radius: 10px;
+}
