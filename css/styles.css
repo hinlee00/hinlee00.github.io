@@ -11056,3 +11056,17 @@ html {
 #videos iframe {
     border-radius: 10px;
 }
+
+#instagram {
+    padding: 60px 0;
+}
+
+#instagram h2 {
+    margin-bottom: 30px;
+}
+
+.carousel-item img {
+    border-radius: 10px;
+    max-height: 400px; /* Adjust height as needed */
+    object-fit: cover; /* Ensures the image covers the area */
+}
