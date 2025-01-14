@@ -11064,9 +11064,3 @@ html {
 #instagram h2 {
     margin-bottom: 30px;
 }
-
-.carousel-item img {
-    border-radius: 10px;
-    max-height: 400px; /* Adjust height as needed */
-    object-fit: cover; /* Ensures the image covers the area */
-}
